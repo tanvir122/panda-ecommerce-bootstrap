@@ -16,7 +16,7 @@
 <body>
     <!-- header started -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="">
@@ -30,13 +30,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoe">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
                   </li>
                 </ul>
               </div>
@@ -129,7 +129,7 @@
 
     <!----- Shoes section starts  -->
 
-        <section class="container">
+        <section class="container" id="shoe">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -177,7 +177,7 @@
 
         <!------ Backpacks section starts  ------>
         <section>
-            <section class="container my-5">
+            <section class="container my-5" id="backpack">
                 <h2>Backpacks</h2>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col">
@@ -227,7 +227,7 @@
        
         <!------ Subscribe section start  ------>
         
-        <section style="height:300px;" class="container bg-info d-flex justify-content-center align-items-center rounded-3">
+        <section style="height:300px;" class="container bg-info d-flex justify-content-center align-items-center rounded-3" id="subscribe">
             <div>
                 <h1>LETS STAY IN TOUCH</h1>
                 <p>Get updates on sales,specials and more</p>
@@ -238,9 +238,8 @@
         <!------ Subscribe section start  ------>
     </main>
 
-    <footer class="mt-5">
-        <p></p>
-        <p>©2020. Panda E-commerce, All rights reserved, Sofia,Bulgeria.</p>
+    <footer class="mt-5 text-center ">
+        <p> <small>©2020. Panda E-commerce, All rights reserved, Sofia,Bulgeria.</small> </p>
     </footer>
     
 
